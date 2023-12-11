@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercícios</title>
+        <script>
+            var idade;
+
+            idade = parseFloat(prompt("Informe a idade da criança (Exemplo: para 1 ano e 1 mês: 1.1):"));
+
+            if (idade <= 1.1) {
+                alert("Beçário I");
+            } else if (idade < 1.2 && idade >= 2.1) {
+                alert("Berçário II");
+            } else if (idade < 2.2 && idade >= 2.10) {
+                alert("Maternal I");
+            } else if (idade < 2,11 && idade >= 3.10) {
+                alert("Maternal II");
+            } else if (idade < 3,11 && idade >= 5) {
+                alert("Infantil");
+            }else {alert("Idade não classificada")}
+        </script>
+    </head>
+</html>            
